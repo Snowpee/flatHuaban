@@ -1,0 +1,65 @@
+html {
+  background: #ebebeb;
+}
+.about-pages {
+ background: #fff;
+}
+#header {
+ box-shadow: 0 1px 0 rgba(0,0,0,.02);
+}
+
+.menu-bar .searching-unit {
+  padding-top: 7px;
+}
+
+.pin,
+.Board {
+  box-shadow: 0 0px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0);
+  border-radius: 2px;
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in !important;
+  }
+.pin:hover {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.2);
+  -webkit-transform: translateY(-1px);
+  }
+.pin-view .piece,
+.pin-view .repin-info-piece .unit{
+  box-shadow: 0 0 0 2px rgba(0,0,0,.04);
+}
+
+.btn {
+  background: #ededed;
+  border: 1px solid #ededed;
+  box-shadow: 0 0 0 transparent;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #444;
+  background: #d9d9d9;
+  box-shadow: none;
+  border: 1px solid #d9d9d9;
+}
+
+.rbtn {
+  background: #E53E49;
+  box-shadow: none;
+  text-shadow: none;
+  border:  none
+}
+.rbtn:hover {
+  background: #c90000;
+  color: #fff;
+  box-shadow:none;
+  border: 0 none;
+}
+
+/*个人主页*/
+
+#user_card {
+  box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+#user_card .maozi {
+  box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
