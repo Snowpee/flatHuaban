@@ -89,6 +89,7 @@ html {
   padding-top: 45px;
   text-align: center;
   position: relative;
+  margin-right: 0;
 }
 #category_nav_bar .navs a {
   color: #777;
