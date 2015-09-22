@@ -1,3 +1,5 @@
+@-moz-document url-prefix("http://huaban.com/") {
+    
 html {
   background: #ebebeb;
 }
@@ -17,11 +19,15 @@ html {
   box-shadow: 0 0px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0);
   border-radius: 2px;
   overflow: hidden;
+  transition: all .2s ease-in !important;
   -webkit-transition: all .2s ease-in !important;
+  -moz-transition: all .2s ease-in !important;
   }
 .pin:hover {
   box-shadow: 0 8px 15px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.2);
+  transform: translateY(-1px);
   -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
   }
 .pin-view .piece,
 .pin-view .repin-info-piece .unit{
@@ -85,7 +91,9 @@ html {
   height: 50px;
   line-height: 50px;
   font-family: 'NotoSansHans-Thin';
+  font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
   padding-top: 45px;
   text-align: center;
   position: relative;
@@ -93,6 +101,9 @@ html {
 }
 #category_nav_bar .navs a {
   color: #777;
+}
+#category_nav_bar .navs a:last-child {
+  margin-right: 0;
 }
 #category_nav_bar .navs {
   float: none;
@@ -113,4 +124,6 @@ html {
   height: 1px;
   background-color: #bbb;
                                           
+}
+    
 }
