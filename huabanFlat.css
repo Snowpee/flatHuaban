@@ -63,3 +63,53 @@ html {
 #user_card .maozi {
   box-shadow: 0 0 2px rgba(0,0,0,.1);
 }
+
+
+/*频道页面*/
+#category_nav_bar {
+  background-size: 0;
+  height: 160px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 0 0 1px #ededed inset;
+}
+#category_nav_bar .wrapper {
+  height: 160px;
+  text-align: center;
+}
+#category_nav_bar .title {
+  display: inline-block;
+  color: #444;
+  float: none;
+  font-size: 40px;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'NotoSansHans-Thin';
+  -webkit-font-smoothing: antialiased;
+  padding-top: 45px;
+  text-align: center;
+  position: relative;
+}
+#category_nav_bar .navs a {
+  color: #777;
+}
+#category_nav_bar .navs {
+  float: none;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 21px;
+}
+#category_nav_bar .right {
+  display: none;
+}
+#category_nav_bar .title:before,
+#category_nav_bar .title:after {
+  content: "";
+  display: inline-block;
+  margin: 15px;
+  width: 40px;
+  height: 1px;
+  background-color: #bbb;
+                                          
+}
